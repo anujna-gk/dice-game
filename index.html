@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="color: crimson;">Welcome to the Dice game !</h1>
+    <h2 style="color: crimson;">Winner :</h2>
+    <h2>
+        <div id="winner" style="color:crimson;">
+
+
+        </div>
+    </h2>
+
+    <div id="results" style="color: maroon;">
+        <h5>Green : Rank 1</h5>
+        <h5>Yellow : Rank 2</h5>
+        <h5>Red : Rank 3</h5>
+    </div>
+
+    <h3>
+        <div id="member-1">
+            Player 1 :
+            <button id="member-1b">
+                0
+
+            </button>
+        </div>
+    </h3>
+
+    <h3>
+        <div id="member-2">
+            Player 2 :
+            <button id="member-2b">
+
+                0
+
+            </button>
+        </div>
+    </h3>
+
+    <h3>
+        <div id="member-3">
+            Player 3 :
+            <button id="member-3b">
+                0
+            </button>
+        </div>
+    </h3>
+    <button id="roll" onclick="RandomGenerator()"> ROLL THE DICE </button>
+
+    <script src="index.js"> </script>
+
+</body>
+
+</html>

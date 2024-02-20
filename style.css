@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#member-1,
+#member-2,
+#member-3 {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(160, 16, 45);
+}
+
+#roll {
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+#member-1b,
+#member-2b,
+#member-3b {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#results {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
