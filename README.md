@@ -1,9 +1,12 @@
+# Dice Game !!
+
 Problem Statement - 1
-Throw Dice
+
 You and your two other team members are doing a project. An issue arises in your project and all three of you come up with a solution. 
 All the three solutions are feasible and each one of you wants to implement his own solution. Hence all of you decided to roll a dice and whoever gets the maximum score will implement his solution. 
 But the problem is you cannot roll a dice online, so you, being an active team member, decided to make an app with three dice showing a random number between 1 to 6 as described below.
 Description :-
+
 Create an Index.html file
 Create three "DIV", which will represent three dice and show a random number between 1 to 6.
 First will represent score for Member A
